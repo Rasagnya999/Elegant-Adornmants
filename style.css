@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.sub-nav-bg{
+    background-color: #B76E79;
+    width:100%;
+    height:40px;
+}
+.about{
+    position: absolute;
+  top: 60%;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  @media (max-width:600px){
+    .about h5{
+      font-size: 14px;
+    }
+    
+  }
+  .fs-font {
+    font-family: "Lora", serif;
+    
+  }
+
+.para{
+  color: red;
+}
